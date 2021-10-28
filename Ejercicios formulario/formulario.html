@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ford</title>
+    <link rel="shortcut icon" href="logo.png" />
+</head>
+<body>
+    <h1>Formulario Ford</h1>
+
+    <div>
+        <form method="get">
+            <fieldset>
+                <legend>Datos persomales</legend>
+                    <label for="Nmbre">Nombre</label><br>
+                    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required><br>
+                    <p></p>
+
+                    <label for="Apellidos">Apellidos</label><br>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required><br>
+                    <p></p>
+
+                    <label for="DNI">DNI-NIF</label><br>
+                    <input type="text" id="nif" name="DNI" placeholder="DNI-NIF"  required><br>
+                    <p></p>
+
+                    <label for="telef">Telefono</label><br>
+                    <input type="text" id="telef" name="telefono" placeholder="Telefono"><br>
+                    <p></p>
+
+                    <label for="correo">Correo</label><br>
+                    <input type="text" id="correo_e" name="Correo" placeholder="Correo"><br>
+ 
+            </fieldset>
+            
+            <fieldset>
+                <legend>Concesionarios para realizar su recogida</legend>
+                    <label for="Almeria">Almeria</label>
+                    <input type="radio" id="ALM" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+
+                    <label for="Granada">Granada</label>
+                    <input type="radio" id="GRX" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+
+                    <label for="Malaga">Malaga</label>
+                    <input type="radio" id="MAL" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+
+                    <label for="Jaen">Jaen</label>
+                    <input type="radio" id="JAN" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+
+                    <label for="Cordoba">Cordoba</label>
+                    <input type="radio" id="COR" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+
+                    <label for="Sevilla">Sevilla</label>
+                    <input type="radio" id="SEV" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+
+                    <label for="Huelva">Huelva</label>
+                    <input type="radio" id="HUEL" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+
+                    <label for="Cadiz">Cadiz</label>
+                    <input type="radio" id="CAD" name="andalucia" required>&nbsp;&nbsp;&nbsp;
+            </fieldset>
+                
+            <fieldset>
+                <legend>¿Como quiere que le notifiquemos?</legend>
+                    <label for="SmS">SMS</label>
+                    <input type="checkbox" id="SMS" name="sms">&nbsp;&nbsp;&nbsp;
+                
+                    <label for="SmS">Correo</label>
+                    <input type="checkbox" id="Correo" name="correo">&nbsp;&nbsp;&nbsp;
+            </fieldset>
+            <fieldset>
+                <legend>Configurador</legend>
+                    <label for="Modelo">Modelo:</label>
+                    <select name="Modelos" id="modelos">
+                        <option value="selecciona-x" hidden>Selecciona una opcion</option>
+                        <option value="FIESTA">FIESTA</option>
+                        <option value="TOURNEO COURIER">TOURNEO COURIER</option>
+                        <option value="ECOSPORT">ECOSPORT</option>
+                        <option value="PUMA">PUMA</option>
+                        <option value="FOCUS">FOCUS</option>
+                        <option value="TOURNEO CONNECT">TOURNEO CONNECT</option>
+                        <option value="KUGA">KUGA</option>
+                        <option value="MUSTANG MACH-E">MUSTANG MACH-E</option>
+                        <option value="MONDEO">MONDEO</option>
+                        <option value="MUSTANG">MUSTANG</option>
+                        <option value="S-MAX">S-MAX</option>
+                        <option value="GALAXY">GALAXY</option>
+                        <option value="EXPLORER">EXPLORER</option>
+                        <option value="TOURNEO CUSTOM">TOURNEO CUSTOM</option>
+                        <option value="FORD-GT">FORD-GT</option>
+                    </select><br>
+
+                        <p></p>
+
+                        <label for="T-conbustible">Eliga que tipo de connustible desea:</label><br>
+
+                        <label for="conbustible">Gasolina:</label>
+                            <input type="radio" id="gasolina" name="conbus" required><br>
+                        
+                        <label for="conbustible">Diesel</label>
+                            <input type="radio" id="gasolina" name="conbus" required>
+                    <p></p>
+
+                    <label for="potencia">Seleccione la potencia (CV):</label><br>
+                        <input type="range" name="CV" id="cv" min="60" max="500" step="40" required> :de 60CV/500CV
+
+                    <p></p>
+                    <label for="color">Seleccione color de coche:</label><br>
+                        <input type="color" name="Color" id="color" required>
+            </fieldset>
+            &nbsp;&nbsp;&nbsp;<button type="submit">Enviar</button>
+            &nbsp;&nbsp;&nbsp;<button type="reset">Eliminar</button>
+        </form>
+    </div>
+</body>
+</html>
