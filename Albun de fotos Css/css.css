@@ -1,0 +1,21 @@
+div>div{
+    float: left;
+    border: black 3px solid;
+}
+
+img{
+    height: 250px;
+    width: 355px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: floralwhite;
+}
+
+p{
+    text-align: center;
+    border: black 1px solid;
+    background-color: coral;
+}
+
+body{
+    min-width: 700px;
+}
