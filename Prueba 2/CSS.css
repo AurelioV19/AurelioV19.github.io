@@ -1,0 +1,43 @@
+  .Contenedor_P{
+    background-color: rgb(219, 219, 219);
+    grid-gap: 20px;
+    display: grid;
+    grid-template-areas: 
+    "objeto-1 objeto-1 objeto-2 objeto-3"
+    "objeto-4 objeto-5 objeto-6 objeto-7";
+}
+#Objet_1{
+    grid-area:objeto-1;
+}
+#Objet_2{
+    grid-area:objeto-2;
+}
+#Objet_3{
+    grid-area:objeto-3;
+}
+#Objet_4{
+    grid-area:objeto-4;
+}
+#Objet_5{
+    grid-area:objeto-5;
+}
+#Objet_6{
+    grid-area:objeto-6;
+}
+#Objet_7{
+    grid-area:objeto-7;
+}
+.Card{
+    background-color: peachpuff;
+    box-shadow: 0px 1px 10px 0px black;
+    display: flex;
+    flex-direction: column;
+}
+.Texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.6em;
+}
+img{ 
+    width: 100%;
+    height: 100%;
+}
