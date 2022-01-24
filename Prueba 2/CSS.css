@@ -1,10 +1,10 @@
   .Contenedor_P{
-    background-color: rgb(219, 219, 219);
     grid-gap: 20px;
     display: grid;
     grid-template-areas: 
     "objeto-1 objeto-1 objeto-2 objeto-3"
     "objeto-4 objeto-5 objeto-6 objeto-7";
+    margin: 3%;
 }
 #Objet_1{
     grid-area:objeto-1;
@@ -29,9 +29,10 @@
 }
 .Card{
     background-color: peachpuff;
-    box-shadow: 0px 1px 10px 0px black;
+    box-shadow: 0px 1px 8px 0px black;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 .Texto{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
